@@ -5,8 +5,8 @@ MAINTAINER Jeeva S. Chelladhurai
 
 RUN pip install flask
 
-COPY src /src/
+COPY ./service.py /service.py
 
 EXPOSE 5000
 
-ENTRYPOINT ["python", "/src/service.py"]
+ENTRYPOINT ["python", "/service.py"]
