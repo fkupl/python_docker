@@ -9,4 +9,4 @@ COPY src /src/
 
 EXPOSE 5000
 
-ENTRYPOINT ["python", "/src/app.py"]
+ENTRYPOINT ["python", "/src/service.py"]
